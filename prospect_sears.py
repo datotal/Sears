@@ -17,7 +17,7 @@ st.set_page_config(
    
     initial_sidebar_state="auto",
 )
-data=pd.read_excel(r"sears_52802.xlsx")
+data=pd.read_excel(r"Sears_52802.xlsx")
 df=data
 print(df.columns)
 st.title("PROSPECT RECOMMENDATIONS")
